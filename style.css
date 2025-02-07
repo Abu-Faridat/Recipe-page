@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "outift", sans-serif;
+  line-height: 1;
+  background-color: hsl(30, 54%, 90%);
+  color: #666565;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.container {
+  background-color: white;
+  width: 60rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  margin-top: 5rem;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.heading-img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.heading-primary {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+  font-family: "young serif";
+}
+
+.heading-primary--text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  width: 55rem;
+}
+
+.details {
+  background-color: hsl(330, 100%, 98%);
+  width: 100%;
+  border-radius: 5px;
+  padding: 2rem 2rem 2rem 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 2rem;
+  font-family: "young serif";
+}
+
+.detail {
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+span {
+  margin-left: 2rem;
+  font-weight: 700;
+}
+
+.section {
+  width: 100%;
+  padding: 2rem 2rem 2rem 0;
+  border-bottom: 1px solid #acacac;
+}
+
+.heading-secondary {
+  color: hsl(14, 45%, 36%);
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "young serif";
+  margin-bottom: 2rem;
+}
+
+.ingredient {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+
+.list {
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+.li {
+  margin-left: 2rem;
+}
+
+.border {
+  border-bottom: none;
+}
+.nutritions {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #acacac;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.table:last-child {
+  border-bottom: none;
+}
+
+.nutrition-value {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.nutrition {
+  margin-left: 3rem;
+}
